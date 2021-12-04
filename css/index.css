@@ -1,5 +1,4 @@
-
-
+html {  background-color: #181A25;}
 body {
   padding-top: 0px;
   background-color: #181A25;
@@ -60,7 +59,7 @@ footer {
   
   /* Navigation dropdown menu */
   .dropdown-menu {
-    background: url("../images/transparency.png");
+    background: url("images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
   }
