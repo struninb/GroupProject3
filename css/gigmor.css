@@ -1,0 +1,288 @@
+html {  background-color: #181A25;}
+body {
+  padding-top: 0px;
+  background-color: #181A25;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .hidesidebarformobile {
+      display:none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .showbottombarformobile {
+      display:none;
+    }
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .showbottombarformobile {
+      position: fixed;
+      bottom:0px;
+      width:100%;
+      background-color:#000;
+      z-index: 5;
+    }
+  }
+
+  /* Navigation bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    background: url("images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: black;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  /* Jumbotron  */
+  .jumbotron {
+    background-image: url(../images/hometop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Jumbotron copy */
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Cards */
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .meetcommunity  {
+padding: 0px 30px 30px 30px;
+    text-align: center;
+    margin:0 auto;
+  }
+
+  .forartists {
+    padding: 0px 30px 30px 30px;
+  }
+
+  .formanagers {
+    padding: 0px 30px 30px 30px;
+  }
+
+  .cardContainer {
+    text-align: center;
+  }
+  
+  /* Content */
+  .sideAccent {
+    background: #007bff;
+    width: 15px;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer */
+  .emailContain {
+    background: url(../images/emailBG.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+  
+  /* Footer form */
+  form {
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    border: 1px solid #F2F2F2;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+  .dropdown-menu {
+    left: -97px;
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+  }
+  .cardContainer {
+    margin-top: 20px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  
+
+  .form-control {
+    font-size: 16px;
+    transition: all 0.4s;
+    box-shadow: none;
+}
+.form-control:focus {
+    border-color: #5cb85c;
+}
+.form-control, .btn {
+    border-radius: 50px;
+    outline: none !important;
+}
+.signup-form {
+    width: 480px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.signup-form form {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: #373B53;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+}
+.signup-form a {
+    color: #5cb85c;
+}    
+.signup-form h2 {
+    text-align: center;
+    font-size: 34px;
+    margin: 10px 0 15px;
+}
+.signup-form .hint-text {
+    color: #727AAE;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+.signup-form .btn {        
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.signup-btn {
+    text-align: center;
+    border-color: #5cb85c;
+    transition: all 0.4s;
+}
+.signup-btn:hover {
+    background: #5cb85c;
+    opacity: 0.8;
+}
+.or-seperator {
+    margin: 50px 0 15px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+.or-seperator b {
+    padding: 0 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #727AAE;
+    border-radius: 50%;
+    position: relative;
+    top: -22px;
+    z-index: 1;
+}
+.social-btn .btn {
+    color: #fff;
+    margin: 10px 0 0 15px;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: normal;
+    border: none;
+    transition: all 0.4s;
+}	
+.social-btn .btn:first-child {
+    margin-left: 0;
+}
+.social-btn .btn:hover {
+    opacity: 0.8;
+}
+.social-btn .btn-primary {
+    background: #507cc0;
+}
+.social-btn .btn-info {
+    background: #64ccf1;
+}
+.social-btn .btn-danger {
+    background: #df4930;
+}
+.social-btn .btn i {
+    float: left;
+    margin: 3px 10px;
+    font-size: 20px;
+}
