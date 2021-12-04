@@ -10,11 +10,25 @@ footer {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .sidebar {
-      width: 100%;
-      position:fixed;
+    .hidesidebarformobile {
+      display:none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .showbottombarformobile {
+      display:none;
+    }
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .showbottombarformobile {
+      position: fixed;
       bottom:0px;
-      background-color:#000; 
-      color:#fff;
+      width:100%;
+      background-color:#000;
     }
   }
