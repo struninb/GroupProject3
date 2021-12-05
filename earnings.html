@@ -6,170 +6,158 @@
     </head>
 
     <body class="body">
-        <div class="navbar navbar-fixed-top navbar-default" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Project name</a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- /.nav-collapse -->
-            </div>
-            <!-- /.container -->
+        
+      <!-- Navigation bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+        <a class="navbar-brand" href="#"><img src="images/acoustic-guitar.png">Rock Nation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Venues <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Artists</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Near you</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Venues</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Artists</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Upcoming Acts</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Buy Tickets</a>
+            </li>
+          </ul>
         </div>
-        <!-- /.navbar -->
-        
-        <div class="container-fluid">
-            <div class="row row-offcanvas row-offcanvas-left">
-                <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-                    <div class="sidebar-nav">
-                        <ul class="nav">
-        
-                            <li class="active"><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li class="nav-divider"></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li class="nav-divider"></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                        </ul>
-                    </div>
+      </nav>
+      <!-- End navigation bar -->
+
+     <!--/Earnings Page-->
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Earnings</h3>
+                    <p>My new amazing album</p>
                 </div>
-                <!--/top title and buttons-->
-        
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h3>Earnings</h3>
-                            <p>My new amazing album</p>
-                        </div>
-                        <div class="col"></div>
-                        <div class="col">
-                            <button type="button" class="btn btn-outline-light">Setting</button>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Last 7 Days
-                                </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Last 30 days</a>
-                                    <a class="dropdown-item" href="#">Last Year</a>
-                                    <a class="dropdown-item" href="#">More</a>
-                            </div>
-                            <button type="button" class="btn btn-outline-light">Download as CSV</button>
-                        </div>
+                <div class="col"></div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-light">Setting</button>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Last 7 Days
+                        </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Last 30 days</a>
+                            <a class="dropdown-item" href="#">Last Year</a>
+                            <a class="dropdown-item" href="#">More</a>
+                    </div>
+                    <button type="button" class="btn btn-outline-light">Download as CSV</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col cards">
+                <h4>$620</h4>
+                <p>Your Earnings</p>
+                </div>
+                <div class="col cards">
+                <h4>230</h4>
+                <p>Tickets Sold</p>
+                </div>
+                <div class="col cards">
+                <h4>13</h4>
+                <p>Gigs Played</p>
+                </div>
+                <div class="col cards">
+                <h4>27</h4>
+                <p>New Followers</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col cards">
+                    <h4>Sales</h4>
+                    <p>Last Month</p>
+                    <img src="images/salesimg.png" alt="">
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col cards">
+                        <h4>Most Value Songs</h4>
+                        <p>Tickets Sold</p>
+                        <p>1. Always authentic</p>
+                        <p>2. Not for me</p>
+                        <p>3. See you tomorrow</p>
+                        <p>4. Don’t worry </p>
+                        <p>5. Go away</p>
+                        <p>6. This is the end</p>
+                        <p>7. Yestarday</p>
+                        <p>8. Too late</p>
+                        <button type="link" class="btn btn-outline-light">Show More</button>
+                    </div>
+                    <div class="col cards">
+                        <img src="images/mostvaluesongs.png" alt="">
                     </div>
                 </div>
             </div>
-            <!--/row-->
-            <body>
-                <div class="container">
-                    <div class="row">
-                      <div class="col cards">
-                        <h4>$620</h4>
-                        <p>Your Earnings</p>
-                      </div>
-                      <div class="col cards">
-                        <h4>230</h4>
-                        <p>Tickets Sold</p>
-                      </div>
-                      <div class="col cards">
-                        <h4>13</h4>
-                        <p>Gigs Played</p>
-                      </div>
-                      <div class="col cards">
-                        <h4>27</h4>
-                        <p>New Followers</p>
-                      </div>
-                    </div>
+            <div class="row">
+                <div class="col cards">
+                    <h4>Revenue by location</h4>
+                    <p>Last Month</p>
+                    <img src="images/revenuebylocationimg.png" alt="">
+                </div>
+                <div class="col cards">
+                    <table class="table">
+                        <thead class="tablewords">
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Most Value Payer</th>
+                            <th scope="col">Descending</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tablewords">
+                            <tr>
+                            <th scope="row">1</th>
+                            <td><img src="images/avatarlucy.png">Lucy</td>
+                            <td>$345.6</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">2</th>
+                            <td><img src="images/avatarcalvin.png">Calvin Steward</td>
+                            <td>$23.9</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">3</th>
+                            <td><img src="images/avatarralph.png">Ralph Richards</td>
+                            <td>$8.7</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">4</th>
+                            <td><img src="images/avatarbernard.png">Bernard Murphy</td>
+                            <td>$8.2</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">5</th>
+                            <td><img src="images/avatararlene.png">Arlene Robertson</td>
+                            <td>$8.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+    <!--/End Earnings Page-->
 
-                    <div class="row">
-                        <div class="col cards">
-                          <h4>Sales</h4>
-                          <p>Last Month</p>
-                          <img src="images/salesimg.png" alt="">
-                        </div>
-
-                        <div class="row">
-                            <div class="col cards">
-                                <h4>Most Value Songs</h4>
-                                <p>Tickets Sold</p>
-                                <p>1.  Always authentic</p>
-                                <p>2. Not for me</p>
-                                <p>3. See you tomorrow</p>
-                                <p>4. Don’t worry </p>
-                                <p>5. Go away</p>
-                                <p>6. This is the end</p>
-                                <p>7. Yestarday</p>
-                                <p>8. Too late</p>
-                                <button type="link" class="btn btn-outline-light">Show More</button>
-                            </div>
-                            <div class="col cards">
-                                <img src="images/mostvaluesongs.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col cards">
-                            <h4>Revenue by location</h4>
-                            <p>Last Month</p>
-                            <img src="images/revenuebylocationimg.png" alt="">
-                        </div>
-                        <div class="col cards">
-                            <table class="table">
-                                <thead class="tablewords">
-                                  <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Most Value Payer</th>
-                                    <th scope="col">Descending</th>
-                                  </tr>
-                                </thead>
-                                <tbody class="tablewords">
-                                  <tr>
-                                    <th scope="row">1</th>
-                                    <td><img src="images/avatarlucy.png">Lucy</td>
-                                    <td>$345.6</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">2</th>
-                                    <td><img src="images/avatarcalvin.png">Calvin Steward</td>
-                                    <td>$23.9</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">3</th>
-                                    <td><img src="images/avatarralph.png">Ralph Richards</td>
-                                    <td>$8.7</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">4</th>
-                                    <td><img src="images/avatarbernard.png">Bernard Murphy</td>
-                                    <td>$8.2</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">5</th>
-                                    <td><img src="images/avatararlene.png">Arlene Robertson</td>
-                                    <td>$8.2</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                        </div>
-                    </div>
-                    
-                  </div>
-
-            </body>
+    </body>
         
             <hr>
         
