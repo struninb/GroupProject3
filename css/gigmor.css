@@ -173,22 +173,18 @@ padding: 0px 30px 30px 30px;
   
  .smallcards, .smallcards img {
    border-radius: 20px;
+   
  }
-  /* Content */
-  .sideAccent {
-    background: #007bff;
-    width: 15px;
-  }
-  .imageContainer img {
-    width: 100%;
-  }
-  .imageContainer {
-    padding: 50px;
-  }
-  .valueProp {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
+
+ .featuredsection {
+   background-color:#282B3E;
+   border-radius:20px;
+   padding:20px;
+   text-align:center;
+ }
+
+ .featuredsection img {float:left; width:200px;}
+
   
   h1, h2, h3, h4, h5, h6, p, br {font-family:'Source Sans Pro', sans-serif;}
   /* Footer */
