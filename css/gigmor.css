@@ -139,6 +139,10 @@ padding: 0px 30px 30px 30px;
   }
   .card-title {text-align:left; font-weight:600;}
   .card-text {text-align:left; font-weight:400; padding:0px;}
+  .bottomtitle {  position: absolute;
+    bottom: 0;
+    left: 10px;}
+ 
   
   /* Content */
   .sideAccent {
