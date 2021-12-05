@@ -13,10 +13,11 @@ h1{
     background-color: #181A25;
 }
 h2{
-    color: #fff;
+    
     font-family: 'Source Sans Pro', sans-serif;
     color: #3F4B5E;
     background-color: #181A25;
+    font-weight: bold;
 }
 .associated{
     display: grid;
@@ -63,6 +64,13 @@ p{
     ;
     background-color: #181A25;
 }
+.gigi img{
+    width: 1000px
+}
+span {
+    font-size: 16px;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .hidesidebarformobile {
