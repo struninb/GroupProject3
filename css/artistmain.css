@@ -44,6 +44,10 @@ h3{
     background-color: #181A25;
     padding-left: 300px;
 }
+.content{
+    background-color: #181A25;
+    padding-left: 300px;
+}
 .row{
     background-color: #181A25;
 }
@@ -58,8 +62,10 @@ p{
 .recent{
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 150px;
+    grid-template-rows: 150px 150px 150px;
     grid-template-areas: 
+    "thomas art News"
+    "thomas art News"
     "thomas art News"
     ;
     background-color: #181A25;
@@ -70,18 +76,69 @@ p{
 span {
     font-size: 16px;
 }
-
+.contentHer h2{
+    color:#3F4B5E;
+    font-weight: bold;
+}
+.acts h2{
+    font-weight: bold;
+}
+.nearYou{
+    background-color: #282B3E;
+    padding-left: 300px;
+}
+.nearYou h2{
+    color: #FFF;
+}
+.row .gigs{
+    background-color: #282B3E !important;
+}
+.row .gigs h2{
+    background-color: #282B3E !important;
+}
+.row .gigs h1{
+    background-color: #282B3E !important;
+}
+.row .gigs h3{
+    background-color: #282B3E !important;
+}
+.row .gigs .heuristic{
+    background-color: #282B3E !important;
+}
+.row .gigs .recent{
+    background-color: #282B3E !important;
+}
+.private{
+    background-color: #282B3E !important;
+    border-radius: 25px;
+}
+.private h2{
+    background-color: #282B3E !important;
+    color: #fff;
+}
+.private .recent{
+    background-color: #282B3E !important;
+    border-radius: 25px;
+}
+.table{
+    border-radius: 25px;
+}
+.calendarImg img{
+    height: 300px;
+}
+    
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .hidesidebarformobile {
-      display:none;
+      display:none !important;
     }
   }
 
   @media only screen and (min-width: 768px) {
     /* For mobile phones: */
     .showbottombarformobile {
-      display:none;
+      display:none !important;
     }
   }
 
