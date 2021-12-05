@@ -90,27 +90,9 @@ span {
 .nearYou h2{
     color: #FFF;
 }
-.row .gigs{
-    background-color: #282B3E !important;
-}
-.row .gigs h2{
-    background-color: #282B3E !important;
-}
-.row .gigs h1{
-    background-color: #282B3E !important;
-}
-.row .gigs h3{
-    background-color: #282B3E !important;
-}
-.row .gigs .heuristic{
-    background-color: #282B3E !important;
-}
-.row .gigs .recent{
-    background-color: #282B3E !important;
-}
 .private{
     background-color: #282B3E !important;
-    border-radius: 25px;
+    border-radius: 25px !important;
 }
 .private h2{
     background-color: #282B3E !important;
@@ -118,10 +100,10 @@ span {
 }
 .private .recent{
     background-color: #282B3E !important;
-    border-radius: 25px;
+    border-radius: 25px !important;
 }
 .table{
-    border-radius: 25px;
+    border-radius: 25px !important;
 }
 .calendarImg img{
     height: 300px;
