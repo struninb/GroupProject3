@@ -7,8 +7,23 @@ body {
   color:#fff;
 }
 footer {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 20px;
+  color: white;
+}
+
+.footerLinks {
+}
+
+.footerBar {
+background-color: #373B53;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
 }
 
 @media only screen and (max-width: 768px) {
