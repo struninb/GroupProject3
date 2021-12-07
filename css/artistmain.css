@@ -123,6 +123,9 @@ span {
 }
 .navbar-brand {
   color: #fff !important;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0px 10px;
 }
 .navbar {
   background-color: #373b53 !important;
@@ -160,6 +163,12 @@ span {
   color: #6f809e;
   padding: 15px;
 }
+#help {
+  color: #6f809e;
+}
+#EN {
+  color: #6f809e;
+}
 #help:hover {
   color: white;
   cursor: pointer;
@@ -169,7 +178,10 @@ span {
   cursor: pointer;
 }
 .nav-link:hover {
-  color: #4e596d !important;
+  color: #929cdd !important;
+}
+.sidebarlink:hover {
+  color: white !important;
 }
 .nav-link {
   color: white !important;

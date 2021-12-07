@@ -23,6 +23,7 @@ body {
 }
 .cardContent {
   display: flex !important;
+  align-items: center !important;
 }
 .cardinfo {
   padding: 10px;
@@ -95,7 +96,16 @@ body {
 }
 .btn {
   margin: 5px;
+  border-radius: 5px !important;
 }
+.btn:hover {
+  background-color: #727aae !important;
+  color: white !important;
+}
+.newalbumbtn {
+  margin: 10px 0px !important;
+}
+
 .dropdown-menu {
   background-color: #282b3e !important;
 }
@@ -104,6 +114,10 @@ body {
 }
 .dropdown-item:hover {
   background-color: black !important;
+}
+.revenuebylocation img {
+  width: 100%;
+  min-width: 300px;
 }
 
 /* General */
@@ -145,6 +159,9 @@ body {
 }
 .navbar-brand {
   color: #fff !important;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0px 10px;
 }
 .navbar {
   background-color: #373b53 !important;
@@ -191,7 +208,10 @@ body {
   cursor: pointer;
 }
 .nav-link:hover {
-  color: #4e596d !important;
+  color: #929cdd !important;
+}
+.sidebarlink:hover {
+  color: white !important;
 }
 .nav-link {
   color: white !important;
@@ -391,9 +411,8 @@ footer {
 .form-control:focus {
   border-color: #5cb85c;
 }
-.form-control,
-.btn {
-  border-radius: 50px;
+.form-control {
+  border-radius: 5px;
   outline: none !important;
 }
 .signup-form {
@@ -459,7 +478,7 @@ footer {
   top: -22px;
   z-index: 1;
 }
-.social-btn .btn {
+.social-btn {
   color: #fff;
   margin: 10px 0 0 15px;
   font-size: 15px;

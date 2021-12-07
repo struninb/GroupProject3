@@ -86,20 +86,22 @@
 <!--PUT YOUR STUFF BETWEEN THIS-->
      <!--/Earnings Page-->
 <div class="everything" style="padding-top: 20px;">
-
     <div class="container-fluid">
         <div class="row topRow">
             <div class="col earningsTitle">
                 <h3>Earnings</h3>
-                <button type="dropdown" class="btn btn-outline-light">
+                <button type="dropdown" class="btn btn-outline-light newalbumbtn">
                     My New Amazing Album
                     <i class="fas fa-solid fa-chevron-down"></i>
                 </button>
             </div>
-            <div class="col"></div>
+            <div class="col">
+            </div>
             <div class="col">
                 <div class="buttonSettings">
-                    <button type="button" class="btn btn-outline-light">Setting</button>
+                    <button type="button" class="btn btn-outline-light">
+                      <i class="fas fa-cog"></i>
+                    </button>
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Last 7 Days
@@ -108,12 +110,14 @@
                             <a class="dropdown-item" href="#">Last 30 days</a>
                             <a class="dropdown-item" href="#">Last Year</a>
                             <a class="dropdown-item" href="#">More</a>
+                          </div>
                     </div>
-                    <button type="button" class="btn btn-outline-light">Download as CSV</button>
-                    </div>
+                    <button type="button" class="btn btn-outline-light">
+                      Download as CSV
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
     <div class="container-fluid">
         <div class="row cardMoney">
             <div class="col cards cardContent">
@@ -153,7 +157,8 @@
                 </div>
             </div>
         </div>
-        <div class="salesSongsRow">
+    
+        <div class="container-fluid salesSongsRow">
             <div class="row">
                 <div class="col cards">
                     <h4>Sales</h4>
@@ -181,8 +186,9 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col cards">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col cards revenuebylocation">
                 <h4>Revenue by location</h4>
                 <p>Last Month</p>
                 <img src="images/revenuebylocationimg.png" alt="">
@@ -225,11 +231,10 @@
                     </tbody>
                 </table>
             </div>
+          </div>
         </div>
-    </div>
-    <!--/End Earnings Page-->
-
 </div>
+    <!--/End Earnings Page-->
             <hr>
         
         
