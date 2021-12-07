@@ -132,7 +132,7 @@ body {
 }
 
 /* General */
-.customNav {
+/*.customNav {
   position: fixed;
   width: 100%;
   background: url("../images/transparency.png");
@@ -151,7 +151,7 @@ body {
 }
 .nav-item {
   margin: 0px 15px;
-}
+}*/
 
 /* Navigation dropdown menu */
 .dropdown-menu {
