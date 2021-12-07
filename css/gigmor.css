@@ -51,7 +51,7 @@ padding: 15px;
       z-index: 5;
     }
   }
-
+.pagecontent {padding-top:80px;}
   /* Navigation bar */
   
   /* General */
@@ -64,6 +64,17 @@ padding: 15px;
     z-index: 10;
     font-family:'Source Sans Pro', sans-serif;
   }
+
+  .customNav2 
+  {
+    position: fixed;
+    width: 100%;
+    background-color: #373B53 !important;
+    background-size: cover;
+    z-index: 10;
+    font-family:'Source Sans Pro', sans-serif;
+  }
+
   .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
