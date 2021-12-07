@@ -6,6 +6,7 @@
 .body {
   padding-top: 0px;
   background-color: #181a25;
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -129,7 +130,7 @@
   background-color: black !important;
 }
 
-/* General */
+/* General 
 .customNav {
   position: fixed;
   width: 100%;
@@ -149,7 +150,7 @@
 }
 .nav-item {
   margin: 0px 15px;
-}
+}*/
 
 /* Navigation dropdown menu */
 .dropdown-menu {
