@@ -54,7 +54,7 @@ padding: 15px;
       display:none;
     }
   }
-.pagecontent {padding-top:60px;}
+  .pagecontent {padding-top:65px;}
   /* Navigation bar */
   
   /* General */
@@ -99,8 +99,9 @@ initial-letter-align:left;
 #sidebar {
   background-color: #373B53 !important;
   max-width: 80px;
-
+  height:100vh;
 }
+.row {padding:0px;}
   
   /* Navigation dropdown menu */
  .dropdown-menu {
