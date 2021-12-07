@@ -51,6 +51,7 @@ h3{
 .row{
     background-color: #181A25;
 }
+.row {padding:0px;}
 p{
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
@@ -109,7 +110,7 @@ span {
     height: 300px;
 }
     
-}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .hidesidebarformobile {

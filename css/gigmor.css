@@ -90,6 +90,9 @@ padding: 15px;
     margin: 0px 0px;
   }
 
+  .navbar-brand {
+    color:#fff;
+  }
   .sidebar-nav {
 height:100vh;
 initial-letter-align:left;
