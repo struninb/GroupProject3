@@ -50,6 +50,9 @@ padding: 15px;
       background-color:#000;
       z-index: 5;
     }
+    .sidebar-offcanvas {
+      display:none;
+    }
   }
 .pagecontent {padding-top:80px;}
   /* Navigation bar */
@@ -88,19 +91,15 @@ padding: 15px;
   }
 
   .sidebar-nav {
-    position:sticky;
+height:100vh;
 initial-letter-align:left;
     background-color: #373B53 !important;
 
   }
-  .sidebar-offcanvas {
-    background-color: #373B53 !important;
-margin-left:-10px;
-margin-top:-15px;
-  }
+
   
   /* Navigation dropdown menu */
-  .dropdown-menu {
+ .dropdown-menu {
     background: url("images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
