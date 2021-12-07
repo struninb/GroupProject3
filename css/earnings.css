@@ -61,9 +61,7 @@ body {
 .col {
   color: white;
 }
-.row {
-  padding: 10px;
-}
+
 .container {
   padding: 20px;
   margin: 0 !important;
@@ -169,7 +167,7 @@ body {
   color: white !important;
 }
 .navbar-brand {
-  color: rgb(133, 95, 95) !important;
+  color: white !important;
 }
 
 /* Navigation links */
