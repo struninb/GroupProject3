@@ -225,7 +225,7 @@ padding: 0px 30px 30px 30px;
   }
   
   footer {
-    padding: 20px;
+   /* padding: 20px; */
     font-size: 20px;
     color: white;
     flex-direction: row;
