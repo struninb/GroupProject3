@@ -1,137 +1,220 @@
-body{
-    background-color: #181A25;
-    background-image: #181a25;
-    background-size: cover;
+body {
+  background-color: #181a25;
+  background-image: #181a25;
+  background-size: cover;
 }
-html{
-    background-color: #181A25;
+html {
+  background-color: #181a25;
 }
-h1{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    color: #fff;
-    background-color: #181A25;
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: #181a25;
 }
-h2{
-    
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #3F4B5E;
-    background-color: #181A25;
-    font-weight: bold;
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #3f4b5e;
+  background-color: #181a25;
+  font-weight: bold;
 }
-.associated{
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 150px;
-    grid-template-areas: 
+.associated {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 150px;
+  grid-template-areas:
     "losing wonderful out"
-    "lemon some song"
-    ;
-    background-color: #181A25;
+    "lemon some song";
+  background-color: #181a25;
 }
-.jumbotron{
-    background-color: #181A25;
+.jumbotron {
+  background-color: #181a25;
 }
-.recently{
-    background-color: #181A25;
+.recently {
+  background-color: #181a25;
 }
-h3{
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #181A25;
-    color: #fff;
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #181a25;
+  color: #fff;
 }
-.contentHer{
-    background-color: #181A25;
-    padding-left: 300px;
+.contentHer {
+  background-color: #181a25;
+  padding-left: 300px;
 }
-.content{
-    background-color: #181A25;
-    padding-left: 300px;
+.content {
+  background-color: #181a25;
+  padding-left: 300px;
 }
-.row{
-    background-color: #181A25;
+.row {
+  background-color: #181a25;
 }
-p{
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #fff;
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
 }
-.contentHer h2{
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #fff;
+.contentHer h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
 }
-.recent{
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 150px 150px 150px;
-    grid-template-areas: 
+.recent {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-areas:
     "thomas art News"
     "thomas art News"
-    "thomas art News"
-    ;
-    background-color: #181A25;
+    "thomas art News";
+  background-color: #181a25;
 }
-.gigi img{
-    width: 1000px
+.gigi img {
+  width: 1000px;
 }
 span {
-    font-size: 16px;
+  font-size: 16px;
 }
-.contentHer h2{
-    color:#3F4B5E;
-    font-weight: bold;
+.contentHer h2 {
+  color: #3f4b5e;
+  font-weight: bold;
 }
-.acts h2{
-    font-weight: bold;
+.acts h2 {
+  font-weight: bold;
 }
-.nearYou{
-    background-color: #282B3E;
-    padding-left: 300px;
+.nearYou {
+  background-color: #282b3e;
+  padding-left: 300px;
 }
-.nearYou h2{
-    color: #FFF;
+.nearYou h2 {
+  color: #fff;
 }
-.private{
-    background-color: #282B3E !important;
-    border-radius: 25px !important;
+.private {
+  background-color: #282b3e !important;
+  border-radius: 25px !important;
 }
-.private h2{
-    background-color: #282B3E !important;
-    color: #fff;
+.private h2 {
+  background-color: #282b3e !important;
+  color: #fff;
 }
-.private .recent{
-    background-color: #282B3E !important;
-    border-radius: 25px !important;
+.private .recent {
+  background-color: #282b3e !important;
+  border-radius: 25px !important;
 }
-.table{
-    border-radius: 25px !important;
+.table {
+  border-radius: 25px !important;
 }
-.calendarImg img{
-    height: 300px;
+.calendarImg img {
+  height: 300px;
 }
-    
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background: url("images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
 }
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: black;
+}
+.primarynav {
+  color: white !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+
+/* Navigation links */
+.customNav a {
+  color: white !important;
+}
+.navCTA {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  background-color: #0094b6 !important;
+  border-radius: 6px !important;
+}
+.navCTA2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  background-color: transparent !important;
+  border-radius: 6px !important;
+  border-color: #fff;
+}
+.helpme {
+  position: fixed;
+  bottom: 0;
+  color: #6f809e !important;
+  padding: 15px;
+}
+#help:hover {
+  color: white;
+  cursor: pointer;
+}
+#EN:hover {
+  color: white;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #6f809e !important;
+}
+.nav-link {
+  color: white !important;
+  padding: 10px 0px;
+}
+.sidebarlink {
+  color: #969cba !important;
+}
+.activesidebar {
+  background-color: #181a25;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 5px !important;
+}
+#sidebar {
+  display: inline-block;
+  text-align: center;
+  padding: 0px;
+}
+.flex-column {
+  margin: 0px;
+}
+
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .hidesidebarformobile {
-      display:none !important;
-    }
+  /* For mobile phones: */
+  .salesSongsRow {
+    flex-wrap: wrap;
   }
+  .valueSongs {
+    flex-wrap: wrap;
+  }
+  .hidesidebarformobile {
+    display: none !important;
+  }
+  .helpme {
+    display: none !important;
+  }
+  #sidebar {
+    display: none !important;
+  }
+}
 
-  @media only screen and (min-width: 768px) {
-    /* For mobile phones: */
-    .showbottombarformobile {
-      display:none !important;
-    }
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  .showbottombarformobile {
+    display: none !important;
   }
+}
 
-  
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .showbottombarformobile {
-      position: fixed;
-      bottom:0px;
-      width:100%;
-      background-color:#000;
-      z-index: 5;
-    }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .showbottombarformobile {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #000;
+    z-index: 5;
   }
+}
