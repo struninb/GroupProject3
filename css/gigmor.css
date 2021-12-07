@@ -87,16 +87,20 @@ padding: 15px;
     width: 65px;
   }
   .nav-item {
-    margin: 0px 15px;
+    margin: 0px 0px;
   }
 
   .sidebar-nav {
 height:100vh;
 initial-letter-align:left;
     background-color: #373B53 !important;
-
+    max-width: 80px;
   }
+#sidebar {
+  background-color: #373B53 !important;
+  max-width: 80px;
 
+}
   
   /* Navigation dropdown menu */
  .dropdown-menu {
