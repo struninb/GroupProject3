@@ -6,25 +6,7 @@ body {
   font-family:'Source Sans Pro', sans-serif;
   color:#fff;
 }
-footer {
-  padding: 20px;
-}
 
-footer p {
-  font-size: 20px;
-  color: white;
-}
-
-.footerLinks {
-}
-
-.footerBar {
-background-color: #373B53;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 15px;
-}
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -50,11 +32,8 @@ padding: 15px;
       background-color:#000;
       z-index: 5;
     }
-    .sidebar-offcanvas {
-      display:none;
-    }
   }
-  .pagecontent {padding-top:65px;}
+.pagecontent {padding-top:80px;}
   /* Navigation bar */
   
   /* General */
@@ -87,27 +66,11 @@ padding: 15px;
     width: 65px;
   }
   .nav-item {
-    margin: 0px 0px;
+    margin: 0px 15px;
   }
-
-  .navbar-brand {
-  color:#fff;
-  }
-  .sidebar-nav {
-height:100vh;
-initial-letter-align:left;
-    background-color: #373B53 !important;
-    max-width: 80px;
-  }
-#sidebar {
-  background-color: #373B53 !important;
-  max-width: 80px;
-  height:100vh;
-}
-.row {padding:0px;}
   
   /* Navigation dropdown menu */
- .dropdown-menu {
+  .dropdown-menu {
     background: url("images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
@@ -260,15 +223,8 @@ padding: 0px 30px 30px 30px;
   .dropdown-menu {
     left: -97px;
   }
+  
   footer {
-<<<<<<< Updated upstream
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #f5f5f5;
-    margin-top: 50px;
-=======
     padding: 20px;
     font-size: 20px;
     color: white;
@@ -315,7 +271,6 @@ padding: 0px 30px 30px 30px;
     color: white;
     text-align: center;
     padding-top: 28%;
->>>>>>> Stashed changes
   }
 
   .homeHelp {
