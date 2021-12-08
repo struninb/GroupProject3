@@ -539,7 +539,14 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color: #000;
+    background-color: #373b53 !important;
     z-index: 5;
+  }
+  .active {
+    background-color: #929cdd !important;
+    color: white;
+  }
+  .active:hover {
+    color: #373b53 !important;
   }
 }
