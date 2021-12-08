@@ -223,7 +223,7 @@ padding: 0px 30px 30px 30px;
   .dropdown-menu {
     left: -97px;
   }
-  
+
   footer {
    /* padding: 20px; */
     font-size: 20px;
@@ -260,7 +260,8 @@ padding: 0px 30px 30px 30px;
   }
 
   .sm ul li{
-    padding-left: 10px;
+    padding-left: 20px;
+    margin: 20px;
   }
 
   .homeHelp .fa{
