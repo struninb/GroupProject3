@@ -46,7 +46,7 @@ h2{
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 150px;
     grid-template-areas: 
-
+}
 h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
@@ -83,7 +83,7 @@ h3 {
 
 .contentHer{
     background-color: #181A25;
-
+}
 .contentHer {
   background-color: #181a25;
   padding-left: 300px;
@@ -115,7 +115,7 @@ p {
     grid-template-rows: 150px 150px 150px;
     grid-template-areas: 
     "thomas art News"
-
+}
 .recent {
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -130,7 +130,7 @@ p {
 
 .gigi img{
     width: 100%;
-
+}
 .gigi img {
   width: 1000px;
 
@@ -232,7 +232,7 @@ span {
       display:none !important;
     }
     .acts img{
-        width: 400px;3
+        width: 400px;
         margin: 0 auto;
     }
     .acts{
@@ -260,7 +260,7 @@ span {
         max-width: 550px;
         margin: 0 auto;
     }
-    }
+    
 
 .calendarImg img {
   height: 300px;
@@ -479,4 +479,5 @@ footer {
   .active:hover {
     color: #373b53 !important;
   }
+}
 }
