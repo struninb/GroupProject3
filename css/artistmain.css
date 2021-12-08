@@ -185,6 +185,71 @@ span {
   margin-left: 15px;
   margin-top: 15px;
 }
+<<<<<<< Updated upstream
+=======
+
+footer {
+    /* padding: 20px; */
+     font-size: 20px;
+     color: white;
+     flex-direction: row;
+   }
+   
+   .footerLogo {
+     text-align: 
+   }
+   
+   .footerBar {
+   background-color: #373B53;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 35px;  
+   display: flex;
+   flex-direction: row;
+   }
+ 
+   .footerBar ul li {
+     list-style-type: none;
+   }
+ 
+   .sm {
+     display: flex;
+     align-items: center;
+     align-self: center;
+   }
+ 
+   .sm ul{
+     display: flex;
+     justify-content: space-between;
+   }
+ 
+   .sm ul li{
+     padding-left: 20px;
+     margin: 20px;
+   }
+ 
+   .homeHelp .fa{
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     background-color: #12131B;
+     color: white;
+     text-align: center;
+     padding-top: 28%;
+   }
+ 
+   .homeHelp {
+     height: 120px;
+     position: fixed;
+     bottom: 90px;
+     right: 72px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-content: space-between;
+   }
+    
+>>>>>>> Stashed changes
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
