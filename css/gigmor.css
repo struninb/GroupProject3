@@ -232,7 +232,7 @@ padding: 0px 30px 30px 30px;
   }
   
   .footerLogo {
-    text-align: 
+    text-align: left;
   }
   
   .footerBar {
@@ -271,6 +271,7 @@ padding: 0px 30px 30px 30px;
     color: white;
     text-align: center;
     padding-top: 28%;
+    cursor: pointer;
   }
 
   .homeHelp {
