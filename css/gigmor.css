@@ -61,6 +61,12 @@ body {
     margin-left: auto;
     margin-right: 0 !important;
   }
+  .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px 10px;
+  }
   .navbar-brand img {
     padding-right: 15px;
     width: 65px;
@@ -85,6 +91,18 @@ body {
   .customNav a {
     color: white !important;
   }
+
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+br {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
   .navCTA {
     font-family:'Source Sans Pro', sans-serif;
     font-size: 15px;
@@ -246,6 +264,7 @@ padding: 0px 30px 30px 30px;
 
   .footerBar ul li {
     list-style-type: none;
+    cursor: pointer;
   }
 
   .sm {
@@ -263,6 +282,7 @@ padding: 0px 30px 30px 30px;
   .sm ul li{
     padding-left: 20px;
     margin: 20px;
+
   }
 
   .homeHelp .fa{
@@ -294,7 +314,9 @@ padding: 0px 30px 30px 30px;
     margin: 0 auto;
   }
   
-
+.pagecontent2 {
+  padding-top:40px;
+}
   .form-control {
     font-size: 16px;
     transition: all 0.4s;
