@@ -1,483 +1,242 @@
-body {
-  background-color: #181a25;
+body{
+  background-color: #181A25;
   background-image: #181a25;
   background-size: cover;
 }
-html {
-  background-color: #181a25;
+html{
+  background-color: #181A25;
 }
-
 h1{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    color: #fff;
-    
-}
-h2{
-    
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #3F4B5E;
-    background-color: #181A25;
-    font-weight: bold;
-}
-.recentGigs{
-    display: flex;
-}
-.recentGigs img{
-    display: flex;
-    padding: 15px;
-}
-.associatedActs{
-    display: flex;
-}
-.associatedActs img{
-    display: flex;
-    padding: 15px;
-}
-.associatedActs2{
-    display: flex;
-}
-.associatedActs2 img{
-    display: flex;
-    padding: 15px;
-}
-.associated{
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 150px;
-    grid-template-areas: 
-}
-h1 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   color: #fff;
-  background-color: #181a25;
+  
 }
-h2 {
-  font-family: "Source Sans Pro", sans-serif;
-  color: #3f4b5e;
-  background-color: #181a25;
+h2{
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3F4B5E;
+  background-color: #181A25;
   font-weight: bold;
 }
-.associated {
+.recentGigs{
+  display: flex;
+}
+.recentGigs img{
+  display: flex;
+  padding: 15px;
+}
+.associatedActs{
+  display: flex;
+}
+.associatedActs img{
+  display: flex;
+  padding: 15px;
+}
+.associatedActs2{
+  display: flex;
+}
+.associatedActs2 img{
+  display: flex;
+  padding: 15px;
+}
+.associated{
   display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 150px;
-  grid-template-areas:
-
-    "losing wonderful out"
-    "lemon some song";
-  background-color: #181a25;
+  grid-template-areas: 
+  "losing wonderful out"
+  "lemon some song"
+  ;
+  background-color: #181A25;
 }
-.jumbotron {
-  background-color: #181a25;
+.jumbotron{
+  background-color: #181A25;
 }
-.recently {
-  background-color: #181a25;
+.recently{
+  background-color: #181A25;
 }
-h3 {
-  font-family: "Source Sans Pro", sans-serif;
-  background-color: #181a25;
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #181A25;
   color: #fff;
 }
-
 .contentHer{
-    background-color: #181A25;
+  background-color: #181A25;
 }
-.contentHer {
-  background-color: #181a25;
-  padding-left: 300px;
-
-}
-.content {
-  background-color: #181a25;
+.content{
+  background-color: #181A25;
   padding-left: 300px;
 }
-.row {
-  background-color: #181a25;
+.row{
+  background-color: #181A25;
 }
-p {
-  font-family: "Source Sans Pro", sans-serif;
+p{
+  font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
 }
-.contentHer h2 {
-  font-family: "Source Sans Pro", sans-serif;
+.contentHer h2{
+  font-family: 'Source Sans Pro', sans-serif;
   color: #fff;
 }
-
 .contentHer img{
-    width: 900px;
-    display: flex;
+  width: 900px;
+  display: flex;
 }
 .recent{
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 150px 150px 150px;
-    grid-template-areas: 
-    "thomas art News"
-}
-.recent {
   display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 150px 150px 150px;
-  grid-template-areas:
-
-    "thomas art News"
-    "thomas art News"
-    "thomas art News";
-  background-color: #181a25;
+  grid-template-areas: 
+  "thomas art News"
+  "thomas art News"
+  "thomas art News"
+  ;
+  background-color: #181A25;
 }
-
 .gigi img{
-    width: 100%;
-}
-.gigi img {
-  width: 1000px;
-
+  width: 100%;
 }
 span {
   font-size: 16px;
 }
-.contentHer h2 {
-  color: #3f4b5e;
+.contentHer h2{
+  color:#3F4B5E;
   font-weight: bold;
 }
-.acts h2 {
+.acts h2{
   font-weight: bold;
 }
-.nearYou {
-  background-color: #282b3e;
+.nearYou{
+  background-color: #282B3E;
   padding-left: 300px;
 }
-.nearYou h2 {
-  color: #fff;
+.nearYou h2{
+  color: #FFF;
 }
-.private {
-  background-color: #282b3e !important;
+.private{
+  background-color: #282B3E !important;
   border-radius: 25px !important;
-}
-.private h2 {
-  background-color: #282b3e !important;
-  color: #fff;
-}
-.private .recent {
-  background-color: #282b3e !important;
-  border-radius: 25px !important;
-}
-.table {
-  border-radius: 25px !important;
-}
-
-.calendarImg img{
-    margin-bottom: 20px;
-}
-.artistProfile{
-    display: flex;
-    background-color: #282B3E !important;
-    border-radius: 25px !important;
-    padding: 20px;
-}
-.artistHeader{
-    background-color: #282B3E !important;
-}
-.smallcards{
-    background-color: #282B3E !important;
-    border-radius: none;
-    border-color: none;
-    border: none;
-}
-.card{
-    margin-top: 20px;
-    background-color: #282B3E !important;
-    border-radius: none;
-    border-color: none;
-    border: none;
-}
-.row .private{
-    background-color: #282B3E !important;
-    border-radius: 25px;
-}
-.asd{
-    background-color: #181a25 !important;
-}
-.acts img{
-    width: 300px;
-}
-.acts{
-    background-color: #181a25 !important;
-    display: flex;
-    flex-direction: row;
-}
-.acts1 img{
-    width: 300px;
-}
-.acts1{
-    margin-left: 15px;
-    background-color: #282B3E !important;
-    display: flex;
-    flex-direction: row;
-}
-.col-6 h2{
-    font-weight: bold !important;
 }
 .private h2{
-    font-weight: bold;
-    margin-left: 15px;
-    margin-top: 15px;
+  background-color: #282B3E !important;
+  color: #fff;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .hidesidebarformobile {
-      display:none !important;
-    }
-    .acts img{
-        width: 400px;
-        margin: 0 auto;
-    }
-    .acts{
-        margin: 0 auto;
-    }
-    .acts1 img{
-        width: 400px;
-        margin: 0 auto;
-    }
-    .acts1{
-        margin: 0 auto;
-    }
-    .calendarImg img{
-        max-width: 500px;
-        margin: 0 auto;
-    }
-    .gigMap img{
-        margin: 0 auto;
-        max-width: 490px;
-    }
-    .gigCalendar img{
-        max-width: 300px;
-    }
-    .contentHer img{
-        max-width: 550px;
-        margin: 0 auto;
-    }
-    
-
-.calendarImg img {
-  height: 300px;
+.private .recent{
+  background-color: #282B3E !important;
+  border-radius: 25px !important;
 }
-
-/* Navigation dropdown menu */
-.dropdown-menu {
-  background: url("images/transparency.png");
-  background-color: transparent !important;
-  background-size: cover;
+.table{
+  border-radius: 25px !important;
 }
-.dropdown-item:focus,
-.dropdown-item:hover {
-  color: #16181b;
-  text-decoration: none;
-  background: black;
+.calendarImg img{
+  margin-bottom: 20px;
 }
-.primarynav {
-  color: white !important;
+.artistProfile{
+  display: flex;
+  background-color: #282B3E !important;
+  border-radius: 25px !important;
+  padding: 20px;
 }
-.navbar-brand {
-  color: #fff !important;
-  font-weight: bold;
-  font-size: 30px;
-  padding: 0px 10px;
+.artistHeader{
+  background-color: #282B3E !important;
 }
-.navbar {
-  background-color: #373b53 !important;
+.smallcards{
+  background-color: #282B3E !important;
+  border-radius: none;
+  border-color: none;
+  border: none;
 }
-.nav-item {
-  padding: 0px;
-  margin: 0px !important;
+.card{
+  margin-top: 20px;
+  background-color: #282B3E !important;
+  border-radius: none;
+  border-color: none;
+  border: none;
 }
-.sidebar-nav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 1%;
+.row .private{
+  background-color: #282B3E !important;
+  border-radius: 25px;
 }
-
-/* Navigation links */
-.customNav a {
-  color: white !important;
-}
-.navCTA {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 15px;
-  background-color: #0094b6 !important;
-  border-radius: 6px !important;
-}
-.navCTA2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 15px;
-  background-color: transparent !important;
-  border-radius: 6px !important;
-  border-color: #fff;
-}
-.helpme {
-  position: fixed;
-  bottom: 0;
-  color: #6f809e;
-  padding: 1.5rem;
-}
-#help {
-  color: #6f809e;
-}
-#EN {
-  color: #6f809e;
-}
-#help:hover {
-  color: white;
-  cursor: pointer;
-}
-#EN:hover {
-  color: white;
-  cursor: pointer;
-}
-.nav-link:hover {
-  color: #929cdd !important;
-}
-.sidebarlink:hover {
-  color: white !important;
-}
-.nav-link {
-  color: white !important;
-  padding: 10px 0px;
-}
-.sidebarlink {
-  color: #969cba !important;
-}
-.activesidebar {
+.asd{
   background-color: #181a25 !important;
-  background-size: cover;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  margin-left: 5px !important;
 }
-#sidebar {
-  display: inline-block;
-  text-align: center;
-  padding: 0px;
-  background-color: #373b53;
+.acts img{
+  width: 250px;
 }
-.flex-column {
-  margin: 0px;
+.acts{
+  background-color: #181a25 !important;
+  display: flex;
+  flex-direction: row;
 }
-.pagecontent {
-  padding-top: 0px !important;
+.acts1 img{
+  width: 250px;
 }
-
-.page-header {
-  padding-top: 80px;
+.acts1{
+  background-color: #282B3E !important;
+  display: flex;
+  flex-direction: row;
 }
-
-
-footer {
-    /* padding: 20px; */
-     font-size: 20px;
-     color: white;
-     flex-direction: row;
-   }
-   
-   .footerLogo {
-     text-align: 
-   }
-   
-   .footerBar {
-   background-color: #373B53;
-   justify-content: space-between;
-   align-items: flex-start;
-   padding: 35px;  
-   display: flex;
-   flex-direction: row;
-   }
- 
-   .footerBar ul li {
-     list-style-type: none;
-   }
- 
-   .sm {
-     display: flex;
-     align-items: center;
-     align-self: center;
-   }
- 
-   .sm ul{
-     display: flex;
-     justify-content: space-between;
-   }
- 
-   .sm ul li{
-     padding-left: 20px;
-     margin: 20px;
-   }
- 
-   .homeHelp .fa{
-     height: 50px;
-     width: 50px;
-     border-radius: 50%;
-     background-color: #12131B;
-     color: white;
-     text-align: center;
-     padding-top: 28%;
-   }
- 
-   .homeHelp {
-     height: 120px;
-     position: fixed;
-     bottom: 90px;
-     right: 72px;
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     align-content: space-between;
-   }
-
+.col-6 h2{
+  font-weight: bold !important;
+}
+.private h2{
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 15px;
+}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .salesSongsRow {
-    flex-wrap: wrap;
-  }
-  .valueSongs {
-    flex-wrap: wrap;
-  }
   .hidesidebarformobile {
-    display: none !important;
+    display:none !important;
   }
-  .helpme {
-    display: none !important;
+  .acts img{
+      width: 400px;
+      margin: 0 auto;
   }
-  #sidebar {
-    display: none !important;
+  .acts{
+      margin: 0 auto;
   }
-}
+  .acts1 img{
+      width: 400px;
+      margin: 0 auto;
+  }
+  .acts1{
+      margin: 0 auto;
+  }
+  .calendarImg img{
+      max-width: 500px;
+      margin: 0 auto;
+  }
+  .gigMap img{
+      margin: 0 auto;
+      max-width: 490px;
+  }
+  .gigCalendar img{
+      max-width: 300px;
+  }
+  .contentHer img{
+      max-width: 550px;
+      margin: 0 auto;
+  }
+ }
 
 @media only screen and (min-width: 768px) {
   /* For mobile phones: */
   .showbottombarformobile {
-    display: none !important;
+    display:none !important;
   }
 }
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .showbottombarformobile {
     position: fixed;
-    bottom: 0px;
-    width: 100%;
-    background-color: #373b53 !important;
+    bottom:0px;
+    width:100%;
+    background-color:#000;
     z-index: 5;
   }
-  .active {
-    background-color: #929cdd !important;
-    color: white;
-  }
-  .active:hover {
-    color: #373b53 !important;
-  }
-}
 }
