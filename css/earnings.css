@@ -10,116 +10,6 @@ body {
   color: #fff;
 }
 
-/* Earnings Page */
-.col img {
-  width: 100%;
-}
-.cards {
-  background-color: #282b3e;
-  border-radius: 10px;
-  padding: 20px;
-  color: white;
-  margin: 10px;
-}
-.cardContent {
-  display: flex !important;
-  align-items: center !important;
-}
-.cardinfo {
-  padding: 10px;
-}
-.col {
-  color: white;
-}
-.row {
-  padding: 0px;
-  margin: 0 auto;
-}
-
-.container-fluid {
-  padding: 0 !important;
-}
-.container {
-  padding: 20px;
-  margin: 0 !important;
-}
-.table img {
-  width: 40px;
-  padding: 0px 10px 0px 0px;
-}
-.tablewords {
-  color: white;
-}
-.icon {
-  width: 24px;
-}
-.cardMoney img {
-  width: 70px;
-  display: flex;
-}
-.container {
-  display: inline-block;
-}
-.buttonSettings {
-  display: flex;
-}
-.everything {
-  display: flex;
-  padding-top: 80px !important;
-}
-.valueSongs img {
-  padding: 10px;
-  min-width: 300px;
-}
-.valueSongs {
-  display: flex;
-}
-.salesSongsRow {
-  display: flex;
-}
-.salesImg {
-  max-width: 700px;
-  padding: 10px;
-  min-width: 300px;
-}
-.cardContent {
-  padding: 20px;
-}
-.btn-outline-light {
-  color: #7d90b2 !important;
-  border-color: #7d90b2 !important;
-}
-.btn-secondary {
-  color: #7d90b2 !important;
-  border-color: #7d90b2 !important;
-  background-color: transparent !important;
-}
-.btn {
-  margin: 5px;
-  border-radius: 5px !important;
-}
-.btn:hover {
-  background-color: #727aae !important;
-  color: white !important;
-}
-.newalbumbtn {
-  margin: 10px 0px !important;
-}
-
-.dropdown-menu {
-  background-color: #282b3e !important;
-}
-.dropdown-item {
-  color: white !important;
-}
-.dropdown-item:hover {
-  background-color: black !important;
-}
-.revenuebylocation img {
-  width: 100%;
-  min-width: 300px;
-}
-
 /* General */
 /*.customNav {
   position: fixed;
@@ -199,6 +89,9 @@ body {
   color: #6f809e;
   padding: 1.5rem;
 }
+#help {
+  color: #6f809e;
+}
 #help:hover {
   color: white;
   cursor: pointer;
@@ -244,26 +137,145 @@ body {
   padding-top: 80px;
 }
 
-/* Jumbotron  */
-.jumbotronhero {
-  background-image: url(../images/hometop.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: calc(100vh - 25px);
-  display: flex;
+/*Back/Forward button and searchbar*/
+.searchbar {
+  background-color: #181a25 !important;
+}
+.backforthsearch {
+  padding-top: 80px !important;
   align-items: center;
-  justify-content: center;
-  font-family: "Source Sans Pro", sans-serif;
+}
+.form-inline {
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  display: flex;
+  align-content: center !important;
+}
+.form-control {
+  background-color: #202231;
+  color: #848ecb;
+}
+input {
+  background-color: #202231 !important;
+  color: #848ecb;
+  border-color: transparent !important;
+}
+.movepagesbtn {
+  background-color: #12131b !important;
+  color: white !important;
+  border-color: none !important;
+}
+.searchform {
+  display: flex;
 }
 
-/* Jumbotron copy */
-.jumboCopy {
-  width: 70%;
-  min-width: 500px;
-  max-width: 700px;
+/* Earnings Page */
+.col img {
+  width: 100%;
+}
+.cards {
+  background-color: #282b3e;
+  border-radius: 10px;
+  padding: 20px;
   color: white;
-  text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
+  margin: 10px;
+}
+.cardContent {
+  display: flex !important;
+  align-items: center !important;
+}
+.cardinfo {
+  padding: 10px;
+}
+.col {
+  color: white;
+}
+.row {
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+.container {
+  padding: 20px;
+  margin: 0 !important;
+}
+.table img {
+  width: 40px;
+  padding: 0px 10px 0px 0px;
+}
+.tablewords {
+  color: white;
+}
+.icon {
+  width: 24px;
+}
+.cardMoney img {
+  width: 70px;
+  display: flex;
+}
+.container {
+  display: inline-block;
+}
+.buttonSettings {
+  display: flex;
+}
+.valueSongs img {
+  padding: 10px;
+  min-width: 300px;
+}
+.valueSongs {
+  display: flex;
+}
+.salesSongsRow {
+  display: flex;
+}
+.salesImg {
+  max-width: 700px;
+  padding: 10px;
+  min-width: 300px;
+}
+.cardContent {
+  padding: 20px;
+}
+.btn-outline-light {
+  color: #7d90b2 !important;
+  border-color: #7d90b2 !important;
+}
+.btn-secondary {
+  color: #7d90b2 !important;
+  border-color: #7d90b2 !important;
+  background-color: transparent !important;
+}
+.btn {
+  margin: 5px;
+  border-radius: 5px !important;
+}
+.btn:hover {
+  background-color: #727aae !important;
+  color: white !important;
+}
+.newalbumbtn {
+  margin: 10px 0px !important;
+}
+
+.dropdown-menu {
+  background-color: #282b3e !important;
+}
+.dropdown-item {
+  color: white !important;
+}
+.dropdown-item:hover {
+  background-color: black !important;
+}
+.revenuebylocation img {
+  width: 100%;
+  min-width: 300px;
 }
 
 /* Cards */
