@@ -183,9 +183,6 @@ span {
   margin-left: 15px;
   margin-top: 15px;
 }
-.artistsVerified img {
-  width: 16px !important;
-}
 
 footer {
   font-size: 20px;
@@ -298,6 +295,9 @@ input {
 }
 .searchform {
   display: flex;
+}
+.artistsVerified img {
+  width: 16px !important;
 }
 
 @media only screen and (max-width: 768px) {
