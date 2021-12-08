@@ -6,6 +6,47 @@ body {
 html {
   background-color: #181a25;
 }
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    
+}
+h2{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3F4B5E;
+    background-color: #181A25;
+    font-weight: bold;
+}
+.recentGigs{
+    display: flex;
+}
+.recentGigs img{
+    display: flex;
+    padding: 15px;
+}
+.associatedActs{
+    display: flex;
+}
+.associatedActs img{
+    display: flex;
+    padding: 15px;
+}
+.associatedActs2{
+    display: flex;
+}
+.associatedActs2 img{
+    display: flex;
+    padding: 15px;
+}
+.associated{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px;
+    grid-template-areas: 
+
 h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
@@ -23,6 +64,7 @@ h2 {
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 150px;
   grid-template-areas:
+
     "losing wonderful out"
     "lemon some song";
   background-color: #181a25;
@@ -38,9 +80,14 @@ h3 {
   background-color: #181a25;
   color: #fff;
 }
+
+.contentHer{
+    background-color: #181A25;
+
 .contentHer {
   background-color: #181a25;
   padding-left: 300px;
+
 }
 .content {
   background-color: #181a25;
@@ -57,18 +104,36 @@ p {
   font-family: "Source Sans Pro", sans-serif;
   color: #fff;
 }
+
+.contentHer img{
+    width: 900px;
+    display: flex;
+}
+.recent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas: 
+    "thomas art News"
+
 .recent {
   display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 150px 150px 150px;
   grid-template-areas:
+
     "thomas art News"
     "thomas art News"
     "thomas art News";
   background-color: #181a25;
 }
+
+.gigi img{
+    width: 100%;
+
 .gigi img {
   width: 1000px;
+
 }
 span {
   font-size: 16px;
@@ -102,6 +167,101 @@ span {
 .table {
   border-radius: 25px !important;
 }
+
+.calendarImg img{
+    margin-bottom: 20px;
+}
+.artistProfile{
+    display: flex;
+    background-color: #282B3E !important;
+    border-radius: 25px !important;
+    padding: 20px;
+}
+.artistHeader{
+    background-color: #282B3E !important;
+}
+.smallcards{
+    background-color: #282B3E !important;
+    border-radius: none;
+    border-color: none;
+    border: none;
+}
+.card{
+    margin-top: 20px;
+    background-color: #282B3E !important;
+    border-radius: none;
+    border-color: none;
+    border: none;
+}
+.row .private{
+    background-color: #282B3E !important;
+    border-radius: 25px;
+}
+.asd{
+    background-color: #181a25 !important;
+}
+.acts img{
+    width: 300px;
+}
+.acts{
+    background-color: #181a25 !important;
+    display: flex;
+    flex-direction: row;
+}
+.acts1 img{
+    width: 300px;
+}
+.acts1{
+    margin-left: 15px;
+    background-color: #282B3E !important;
+    display: flex;
+    flex-direction: row;
+}
+.col-6 h2{
+    font-weight: bold !important;
+}
+.private h2{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .hidesidebarformobile {
+      display:none !important;
+    }
+    .acts img{
+        width: 400px;3
+        margin: 0 auto;
+    }
+    .acts{
+        margin: 0 auto;
+    }
+    .acts1 img{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .acts1{
+        margin: 0 auto;
+    }
+    .calendarImg img{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .gigMap img{
+        margin: 0 auto;
+        max-width: 490px;
+    }
+    .gigCalendar img{
+        max-width: 300px;
+    }
+    .contentHer img{
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    }
+
 .calendarImg img {
   height: 300px;
 }
@@ -213,8 +373,7 @@ span {
 .page-header {
   padding-top: 80px;
 }
-<<<<<<< Updated upstream
-=======
+
 
 footer {
     /* padding: 20px; */
@@ -276,8 +435,7 @@ footer {
      justify-content: space-between;
      align-content: space-between;
    }
-    
->>>>>>> Stashed changes
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
